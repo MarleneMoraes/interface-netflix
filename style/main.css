@@ -46,8 +46,6 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../imagens/tribes-of-europa.jpg');
     
-    height: 400px;
-    width: 100%;
     background-size: cover;
     
     display: flex;
@@ -99,4 +97,5 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    margin-top: 10px;
 }
