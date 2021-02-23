@@ -15,12 +15,15 @@ body{
     color: white;
 }
 
-header .conteiner{
-    padding: 20px;
+header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.container{
+    margin: 10px 20px;
 }
 
 header .logo{
@@ -44,12 +47,17 @@ header nav a:hover{
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../imagens/tribes-of-europa.jpg');
     
     height: 400px;
+    width: 100%;
     background-size: cover;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 55%;
 }
 
 .filme-principal .descricao{
