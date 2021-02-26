@@ -4,7 +4,7 @@
 
 
 
-> Status do projeto:  Em andamento :pencil:
+> Status do projeto:  Concluído :heavy_check_mark:
 
 
 
