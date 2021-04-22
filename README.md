@@ -1,6 +1,6 @@
 # Digital Innovation One (DIO)
 
-<img src="C:/workspace/DIO/dio-logo.png" alt="instagram" width="150" align="left" />Este repositório faz parte de uma série de projetos (chamados de [Labs] (https://web.digitalinnovation.one/labs) na plataforma), da Digital Innovation One (DIO). A DIO é uma comunidade educacional gratuita voltada para desenvolvedores de *software*, com a finalidade de capacitá-los, criar portifólios, comunidade colaborativa e oportunidades profissionais com empresas parceiras pelos *bootcamps*.
+<img src="DIO-logo.png" alt="DIO" width="100" align="left" />Este repositório faz parte de uma série de projetos (chamados de [Labs](https://web.digitalinnovation.one/labs)) na plataforma), da Digital Innovation One (DIO). A DIO é uma comunidade educacional gratuita voltada para desenvolvedores de *software*, com a finalidade de capacitá-los, criar portifólios, comunidade colaborativa e oportunidades profissionais com empresas parceiras pelos *bootcamps*.
 
 Os Labs só tem acesso apenas em contas PRO ou disponibilizados gratuitamente nos *bootcamps*. Em vista disso, aproveitei a oportunidade para realizar os projetos e enviá-los para este repositório, listando-os neste *markdown* após a conclusão dos projetos.
 
