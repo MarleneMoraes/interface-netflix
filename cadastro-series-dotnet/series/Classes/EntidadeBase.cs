@@ -2,7 +2,7 @@ namespace series
 {
     public abstract class EntidadeBase
     {
-        public int Id 
+        protected int Id 
         {
             get;
             protected set;
