@@ -1,38 +1,55 @@
+using System;
+using System.Collections.Generic;
 using series.interfaces;
 
 namespace series.Classes
 {
-    public class repositorioSerie : iRepositorio <serie>
+    public class SerieRepositorio : iRepositorio<serie>
     {
-        private List<serie> listaSerie = new List<serie>();
-        public void AtualizarSeries(int id, serie entidade)
+        private List<Serie> listaSerie = new List<Serie>();
+        public void Atualiza(int id, Serie objeto)
         {
-            listaSerie[id] = entidade;
+            listaSerie[id] = objeto;
         }
 
-        public void ExcluiSerie(int id)
+        public void Atualiza(int id, serie entidade)
         {
-           listaSerie[id].Excluir();
+            throw new NotImplementedException();
         }
 
-        public void Insere(serie entidade)
+        public void Exclui(int id)
+        {
+            listaSerie[id].Excluir();
+        }
+
+        public void Insere(Serie objeto)
         {
             listaSerie.Add(objeto);
         }
 
-        public List<serie> Lista ()
+        public void Insere(serie entidade)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Serie> Lista()
         {
             return listaSerie;
         }
 
         public int ProximoId()
         {
-            return listaSerie.count;
+            return listaSerie.Count;
         }
 
         public Serie RetornaPorId(int id)
         {
-            return listaSerie(id);
+            return listaSerie[id];
+        }
+
+        serie iRepositorio<serie>.RetornaPorId(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

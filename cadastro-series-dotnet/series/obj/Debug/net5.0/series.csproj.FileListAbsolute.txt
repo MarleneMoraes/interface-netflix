@@ -1,0 +1,5 @@
+c:\workspace\DIO-labs\cadastro-series-dotnet\series\obj\Debug\net5.0\series.csproj.AssemblyReference.cache
+c:\workspace\DIO-labs\cadastro-series-dotnet\series\obj\Debug\net5.0\series.GeneratedMSBuildEditorConfig.editorconfig
+c:\workspace\DIO-labs\cadastro-series-dotnet\series\obj\Debug\net5.0\series.AssemblyInfoInputs.cache
+c:\workspace\DIO-labs\cadastro-series-dotnet\series\obj\Debug\net5.0\series.AssemblyInfo.cs
+c:\workspace\DIO-labs\cadastro-series-dotnet\series\obj\Debug\net5.0\series.csproj.CoreCompileInputs.cache

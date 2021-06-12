@@ -1,3 +1,49 @@
+using System;
+using series.Classes;
+
+namespace series.Classes
+{
+    public class Serie
+    {
+        private int id;
+        private Genero genero;
+        private string titulo;
+        private int ano;
+        private string descricao;
+
+        public Serie(int id, Genero genero, string titulo, int ano, string descricao)
+        {
+            this.id = id;
+            this.genero = genero;
+            this.titulo = titulo;
+            this.ano = ano;
+            this.descricao = descricao;
+        }
+
+        public static string Id { get; internal set; }
+
+        internal void Excluir()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal object retornaExcluido()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal int retornaId()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal int retornaTitulo()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
 namespace series
 {
     public class serie : EntidadeBase
@@ -11,6 +57,7 @@ namespace series
             this.Ano = ano;
 
         }
+
         private Genero Genero { get; set; }
 
         private string Titulo { get; set; }
@@ -37,6 +84,7 @@ namespace series
             resposta += "Título " + this.Titulo + System.Environment.NewLine;
             resposta += "Descrição " + this.Descricao + System.Environment.NewLine;
             resposta += "Ano de Início " + this.Ano;
+            resposta += "Excluído" + this.Excluido;
             return resposta;
         }
 
@@ -47,10 +95,15 @@ namespace series
 
         public string retornaId()
         {
-            return this.Id;
+            return Serie.Id;
         }
 
-        public void Exclui ()
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
+        }
+
+        public void Exclui()
         {
             this.Excluido = true;
         }
